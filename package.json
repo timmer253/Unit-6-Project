@@ -1,0 +1,25 @@
+{
+  "name": "content-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scraper.js",
+  "scripts": {
+    "lint": "eslint **.js; exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "4.2.4"
+  },
+  "author": "Tim Larson",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "json2csv": "^3.6.2",
+    "moment": "^2.14.1",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.0"
+  }
+}
+
